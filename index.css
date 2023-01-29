@@ -1,8 +1,11 @@
 header {
-    background-color: rgba(255, 255, 255, 0);
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(10, 5, 5);
     color: rgb(248, 245, 245);
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(255, 255, 255, 0));
+    text-transform: uppercase;
     font-family: proxima-nova, sans-serif;
     font-size: 20px;
 }
@@ -12,12 +15,22 @@ span {
     text-align: center;
 }
 
+.logo {
+    text-align: center;
+    width: 80px;
+
+}
+
 menu {
-    color: black;
+    justify-content: space-between;
     text-align: center;
     font-family: proxima-nova, sans-serif;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+option {
+    display: inline;
 }
 
 .deHeader-a-H3 {
@@ -30,38 +43,70 @@ menu {
 }
 
 h1 {
-    color: rgba(0, 0, 0, 0.493);
+    padding: 120px 7vw;
+    color: rgba(0, 0, 0, 0.651);
     text-align: left;
     font-family: proxima-nova, sans-serif;
-    font-size: 170px;
+    font-size: 550%;
+    text-transform: uppercase;
 }
 
 h2 {
+    padding: 120px 20px;
     color: rgb(0, 0, 0);
     font-family: proxima-nova, sans-serif;
-    font-size: 20px;
+    font-size: 200%;
     text-align: center;
+    text-transform: uppercase;
     background-color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
-.principiante {
+
+
+h3 {
+    padding: 120px 7vw;
+    font-size: 190%;
     background-color: white;
     text-align: center;
-    font-family: proxima-nova, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    text-transform: uppercase;
 }
 
-.avanzado {
-    background-image: url(imagenes/ssnn2.jpg);
-    background-position: center center;
-    background-size: cover;
+h4 {
+    text-align: center;
+    font-size: 190%;
+    text-transform: uppercase;
+}
+
+.img {
+    text-align: center;
+}
+
+
+.principiante {
+    padding: 120px 7vw;
+    background-color: white;
     background-attachment: fixed;
-    font-size: 20px;
+    text-align: left;
+    font-family: proxima-nova, sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.avanzado {
+    padding: 120px 7vw;
+    background-color: white;
+    background-attachment: fixed;
+    font-size: 90%;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
+    text-transform: uppercase;
 }
+
+
 
 .cara {
     background-color: rgba(240, 248, 255, 0.11);
@@ -70,16 +115,18 @@ h2 {
 ul {
     color: black;
     text-align: left;
+    text-transform: uppercase;
 }
 
 
 p {
     color: black;
+    text-transform: uppercase;
 }
 
 
 .planning {
-    color: rgba(255, 255, 255, 0.493)
+    color: rgba(255, 255, 255, 0.719)
 }
 
 footer {
@@ -92,9 +139,9 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #fff;
-    font-family: proxima-nova,sans-serif;
+    font-family: proxima-nova, sans-serif;
     color: #0d0d0d;
-    font-size: 22px;
+    font-size: 150%;
     line-height: 1.4;
     font-weight: 400;
 }
